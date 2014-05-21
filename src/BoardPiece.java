@@ -25,15 +25,12 @@ public class BoardPiece {
 	private int getPieceColumnAsIntergerFromCharacter(char c){
         int offsetToStartValuesFrom1 = 96;
         int columnAsciiRepresentation = (int) c;
-        System.out.println(columnAsciiRepresentation - offsetToStartValuesFrom1);
         return columnAsciiRepresentation - offsetToStartValuesFrom1;
 	}
 	
 	private int getPieceLineAsIntergerFromCharacter(char c){
         int offsetToStartValuesFrom1 = 48;
         int lineAsciiRepresentation = (int) c;
-
-        System.out.println(lineAsciiRepresentation - offsetToStartValuesFrom1);
         return lineAsciiRepresentation - offsetToStartValuesFrom1;
 	}
 }
